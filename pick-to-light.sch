@@ -1,0 +1,622 @@
+EESchema Schematic File Version 2
+LIBS:PTL-Schematic
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pick-to-light-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "PICK TO LIGHT - DISPLAY NODE"
+Date "2015-11-05"
+Rev "2"
+Comp "HOWARD WRIGHT LIMITED"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Arduino_Pro_Mini_Board ARD1
+U 1 1 56200271
+P 2550 4950
+F 0 "ARD1" H 2500 4850 60  0000 C CNN
+F 1 "Arduino_Pro_Mini_Board" H 2500 5000 60  0000 C CNN
+F 2 "PTL-footprints:ArduinoProMini" H 2450 4900 60  0001 C CNN
+F 3 "" H 2450 4900 60  0000 C CNN
+	1    2550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 56200981
+P 2550 3700
+F 0 "R7" V 2500 3550 50  0000 C CNN
+F 1 "510" V 2550 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2480 3700 30  0001 C CNN
+F 3 "" H 2550 3700 30  0000 C CNN
+	1    2550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 562009CA
+P 2700 3700
+F 0 "R8" V 2650 3550 50  0000 C CNN
+F 1 "510" V 2700 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2630 3700 30  0001 C CNN
+F 3 "" H 2700 3700 30  0000 C CNN
+	1    2700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 56200A07
+P 7600 3350
+F 0 "R12" V 7680 3350 50  0000 C CNN
+F 1 "4K7" V 7600 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 3350 30  0001 C CNN
+F 3 "" H 7600 3350 30  0000 C CNN
+	1    7600 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 56200A4B
+P 5300 3350
+F 0 "R9" V 5380 3350 50  0000 C CNN
+F 1 "4K7" V 5300 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5230 3350 30  0001 C CNN
+F 3 "" H 5300 3350 30  0000 C CNN
+	1    5300 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 56200CB1
+P 2100 3700
+F 0 "R4" V 2050 3550 50  0000 C CNN
+F 1 "510" V 2100 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2030 3700 30  0001 C CNN
+F 3 "" H 2100 3700 30  0000 C CNN
+	1    2100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 56200CE1
+P 2250 3700
+F 0 "R5" V 2200 3550 50  0000 C CNN
+F 1 "510" V 2250 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 3700 30  0001 C CNN
+F 3 "" H 2250 3700 30  0000 C CNN
+	1    2250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 56200D1E
+P 2400 3700
+F 0 "R6" V 2350 3550 50  0000 C CNN
+F 1 "510" V 2400 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2330 3700 30  0001 C CNN
+F 3 "" H 2400 3700 30  0000 C CNN
+	1    2400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 56200DC8
+P 1950 3700
+F 0 "R3" V 1900 3550 50  0000 C CNN
+F 1 "510" V 1950 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1880 3700 30  0001 C CNN
+F 3 "" H 1950 3700 30  0000 C CNN
+	1    1950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 56200E03
+P 1800 3700
+F 0 "R2" V 1750 3550 50  0000 C CNN
+F 1 "510" V 1800 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1730 3700 30  0001 C CNN
+F 3 "" H 1800 3700 30  0000 C CNN
+	1    1800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 56200E41
+P 1650 3700
+F 0 "R1" V 1600 3550 50  0000 C CNN
+F 1 "510" V 1650 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1580 3700 30  0001 C CNN
+F 3 "" H 1650 3700 30  0000 C CNN
+	1    1650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDSP-C5A3 SEG1
+U 1 1 5620254A
+P 5300 2300
+F 0 "SEG1" H 5300 2850 60  0000 C CNN
+F 1 "HDSP-C5A3" H 5300 1750 60  0000 C CNN
+F 2 "PTL-footprints:ACSC56-41SRWA-F01" H 5300 2300 60  0001 C CNN
+F 3 "" H 5300 2300 60  0000 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDSP-C5A3 SEG2
+U 1 1 562025B1
+P 7600 2250
+F 0 "SEG2" H 7600 2800 60  0000 C CNN
+F 1 "HDSP-C5A3" H 7600 1700 60  0000 C CNN
+F 2 "PTL-footprints:ACSC56-41SRWA-F01" H 7600 2250 60  0001 C CNN
+F 3 "" H 7600 2250 60  0000 C CNN
+	1    7600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 56206022
+P 6000 3750
+F 0 "#PWR4" H 6000 3500 50  0001 C CNN
+F 1 "GND" H 6000 3600 50  0000 C CNN
+F 2 "" H 6000 3750 60  0000 C CNN
+F 3 "" H 6000 3750 60  0000 C CNN
+	1    6000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 56206061
+P 8300 3750
+F 0 "#PWR7" H 8300 3500 50  0001 C CNN
+F 1 "GND" H 8300 3600 50  0000 C CNN
+F 2 "" H 8300 3750 60  0000 C CNN
+F 3 "" H 8300 3750 60  0000 C CNN
+	1    8300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 56206152
+P 4200 3600
+F 0 "#PWR3" H 4200 3350 50  0001 C CNN
+F 1 "GND" H 4200 3450 50  0000 C CNN
+F 2 "" H 4200 3600 60  0000 C CNN
+F 3 "" H 4200 3600 60  0000 C CNN
+	1    4200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X03 P1
+U 1 1 56207AEC
+P 1850 6750
+F 0 "P1" H 1850 6950 50  0000 C CNN
+F 1 "CONN_02X03" H 1850 6550 50  0000 C CNN
+F 2 "PTL-footprints:2x3-male-pin-header-smd" H 1850 5550 60  0001 C CNN
+F 3 "" H 1850 5550 60  0000 C CNN
+	1    1850 6750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 5050
+NoConn ~ 1300 5200
+NoConn ~ 3000 4150
+NoConn ~ 3150 4150
+NoConn ~ 3300 4150
+$Comp
+L SW_PUSH SW1
+U 1 1 5620F51A
+P 6700 5650
+F 0 "SW1" H 6850 5760 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 5570 50  0000 C CNN
+F 2 "PTL-footprints:SW_SPST_PTS645" H 6700 5650 60  0001 C CNN
+F 3 "" H 6700 5650 60  0000 C CNN
+	1    6700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 5620F5C8
+P 6700 6050
+F 0 "SW2" H 6850 6160 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 5970 50  0000 C CNN
+F 2 "PTL-footprints:SW_SPST_PTS645" H 6700 6050 60  0001 C CNN
+F 3 "" H 6700 6050 60  0000 C CNN
+	1    6700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5620FD08
+P 5750 5300
+F 0 "R10" V 5830 5300 50  0000 C CNN
+F 1 "10K" V 5750 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5680 5300 30  0001 C CNN
+F 3 "" H 5750 5300 30  0000 C CNN
+	1    5750 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 5620FDB8
+P 6250 5300
+F 0 "R11" V 6330 5300 50  0000 C CNN
+F 1 "10K" V 6250 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6180 5300 30  0001 C CNN
+F 3 "" H 6250 5300 30  0000 C CNN
+	1    6250 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR5
+U 1 1 56210164
+P 6000 4800
+F 0 "#PWR5" H 6000 4650 50  0001 C CNN
+F 1 "VCC" H 6000 4950 50  0000 C CNN
+F 2 "" H 6000 4800 60  0000 C CNN
+F 3 "" H 6000 4800 60  0000 C CNN
+	1    6000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 5621057E
+P 7200 6150
+F 0 "#PWR6" H 7200 5900 50  0001 C CNN
+F 1 "GND" H 7200 6000 50  0000 C CNN
+F 2 "" H 7200 6150 60  0000 C CNN
+F 3 "" H 7200 6150 60  0000 C CNN
+	1    7200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5621EA92
+P 2500 7050
+F 0 "#PWR2" H 2500 6800 50  0001 C CNN
+F 1 "GND" H 2500 6900 50  0000 C CNN
+F 2 "" H 2500 7050 60  0000 C CNN
+F 3 "" H 2500 7050 60  0000 C CNN
+	1    2500 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2250 5750
+NoConn ~ 2400 5750
+NoConn ~ 2550 5750
+NoConn ~ 2700 5750
+NoConn ~ 3000 5750
+$Comp
+L VCC #PWR1
+U 1 1 56221E89
+P 1300 6000
+F 0 "#PWR1" H 1300 5850 50  0001 C CNN
+F 1 "VCC" H 1300 6150 50  0000 C CNN
+F 2 "" H 1300 6000 60  0000 C CNN
+F 3 "" H 1300 6000 60  0000 C CNN
+	1    1300 6000
+	1    0    0    -1  
+$EndComp
+Text Notes 7000 6850 0    60   ~ 0
+The display node drives the 2 seven segment displays by multiplexing.\nThe BC486 needs 5 to 10 ms for switching; any quicker and the two displays\nblur together and LED does not have chance to get to full brightness.
+Text Notes 7000 6950 0    60   ~ 0
+Control from I2C master over A4 and A5.
+Wire Wire Line
+	1650 3850 1650 4150
+Wire Wire Line
+	1800 3850 1800 4150
+Wire Wire Line
+	1950 3850 1950 4150
+Wire Wire Line
+	2100 3850 2100 4150
+Wire Wire Line
+	2250 3850 2250 4150
+Wire Wire Line
+	2400 3850 2400 4150
+Wire Wire Line
+	2550 3850 2550 4150
+Wire Wire Line
+	2700 3850 2700 4150
+Wire Wire Line
+	1650 900  1650 3550
+Wire Wire Line
+	1650 1900 4700 1900
+Wire Wire Line
+	1800 1000 1800 3550
+Wire Wire Line
+	1800 2000 4700 2000
+Wire Wire Line
+	1950 1100 1950 3550
+Wire Wire Line
+	1950 2100 4700 2100
+Wire Wire Line
+	2100 1200 2100 3550
+Wire Wire Line
+	2100 2200 4700 2200
+Wire Wire Line
+	1650 900  6850 900 
+Wire Wire Line
+	6850 900  6850 1850
+Wire Wire Line
+	6850 1850 7000 1850
+Connection ~ 1650 1900
+Wire Wire Line
+	1800 1000 6750 1000
+Wire Wire Line
+	6750 1000 6750 1950
+Wire Wire Line
+	6750 1950 7000 1950
+Connection ~ 1800 2000
+Wire Wire Line
+	1950 1100 6650 1100
+Wire Wire Line
+	6650 1100 6650 2050
+Wire Wire Line
+	6650 2050 7000 2050
+Connection ~ 1950 2100
+Wire Wire Line
+	2100 1200 6550 1200
+Wire Wire Line
+	6550 1200 6550 2150
+Wire Wire Line
+	6550 2150 7000 2150
+Connection ~ 2100 2200
+Wire Wire Line
+	2250 1300 2250 3550
+Wire Wire Line
+	2250 2300 4700 2300
+Wire Wire Line
+	2400 1400 2400 3550
+Wire Wire Line
+	2400 2400 4700 2400
+Wire Wire Line
+	2550 1500 2550 3550
+Wire Wire Line
+	2550 2500 4700 2500
+Wire Wire Line
+	2700 1600 2700 3550
+Wire Wire Line
+	2700 2600 4700 2600
+Wire Wire Line
+	2250 1300 6450 1300
+Wire Wire Line
+	6450 1300 6450 2250
+Wire Wire Line
+	6450 2250 7000 2250
+Connection ~ 2250 2300
+Wire Wire Line
+	2400 1400 6350 1400
+Wire Wire Line
+	6350 1400 6350 2350
+Wire Wire Line
+	6350 2350 7000 2350
+Connection ~ 2400 2400
+Wire Wire Line
+	2550 1500 6250 1500
+Wire Wire Line
+	6250 1500 6250 2450
+Wire Wire Line
+	6250 2450 7000 2450
+Connection ~ 2550 2500
+Wire Wire Line
+	2700 1600 6150 1600
+Wire Wire Line
+	6150 1600 6150 2550
+Wire Wire Line
+	6150 2550 7000 2550
+Connection ~ 2700 2600
+Wire Wire Line
+	5900 1850 6000 1850
+Wire Wire Line
+	6000 1850 6000 3150
+Wire Wire Line
+	5900 1950 6000 1950
+Connection ~ 6000 1950
+Wire Wire Line
+	8200 1800 8300 1800
+Wire Wire Line
+	8300 1800 8300 3150
+Wire Wire Line
+	8200 1900 8300 1900
+Connection ~ 8300 1900
+Wire Wire Line
+	7750 3350 8000 3350
+Wire Wire Line
+	5450 3350 5700 3350
+Wire Wire Line
+	5000 5850 5000 3350
+Wire Wire Line
+	5000 3350 5150 3350
+Wire Wire Line
+	7200 3350 7450 3350
+Wire Wire Line
+	6000 3550 6000 3750
+Wire Wire Line
+	8300 3550 8300 3750
+Wire Wire Line
+	2850 4150 2850 3500
+Wire Wire Line
+	3150 6850 3150 5750
+Wire Wire Line
+	2100 6850 3150 6850
+Wire Wire Line
+	1300 4700 850  4700
+Wire Wire Line
+	850  4700 850  6750
+Wire Wire Line
+	850  6750 1600 6750
+Wire Wire Line
+	1300 4850 950  4850
+Wire Wire Line
+	950  4850 950  6650
+Wire Wire Line
+	950  6650 1600 6650
+Wire Wire Line
+	2850 3500 4200 3500
+Wire Wire Line
+	4200 3500 4200 3600
+Wire Wire Line
+	5100 5950 5100 4300
+Wire Wire Line
+	5100 4300 7200 4300
+Wire Wire Line
+	7200 4300 7200 3350
+Wire Wire Line
+	6250 5450 6250 6150
+Wire Wire Line
+	6250 5650 6400 5650
+Wire Wire Line
+	5750 5450 5750 6050
+Wire Wire Line
+	1800 6050 6400 6050
+Connection ~ 5750 6050
+Wire Wire Line
+	6250 6150 1650 6150
+Connection ~ 6250 5650
+Wire Wire Line
+	7200 5650 7200 6150
+Wire Wire Line
+	7200 6050 7000 6050
+Wire Wire Line
+	7000 5650 7200 5650
+Connection ~ 7200 6050
+Wire Wire Line
+	5750 5150 5750 5000
+Wire Wire Line
+	6250 5000 6250 5150
+Wire Wire Line
+	3750 4550 4550 4550
+Wire Wire Line
+	3750 4700 3950 4700
+Wire Wire Line
+	3750 4850 4000 4850
+Wire Wire Line
+	3750 5200 3950 5200
+Wire Wire Line
+	3750 5350 4550 5350
+Wire Wire Line
+	2500 7050 2500 6850
+Connection ~ 2500 6850
+Wire Wire Line
+	3300 5750 3300 6650
+Wire Wire Line
+	3300 6650 2100 6650
+Wire Wire Line
+	1300 6000 1300 6350
+Wire Wire Line
+	1300 6350 2850 6350
+Wire Wire Line
+	2850 6350 2850 5750
+Wire Wire Line
+	5000 5850 2100 5850
+Wire Wire Line
+	2100 5850 2100 5750
+Wire Wire Line
+	5100 5950 1950 5950
+Wire Wire Line
+	1950 5950 1950 5750
+Wire Wire Line
+	1800 6050 1800 5750
+Wire Wire Line
+	1650 6150 1650 5750
+Wire Wire Line
+	5750 5000 6250 5000
+Wire Wire Line
+	6000 4800 6000 5000
+Connection ~ 6000 5000
+Wire Wire Line
+	3750 5050 4000 5050
+$Comp
+L CONN_02X03 P2
+U 1 1 5625BE70
+P 4450 4950
+F 0 "P2" H 4450 5150 50  0000 C CNN
+F 1 "CONN_02X03" H 4450 5250 50  0000 C CNN
+F 2 "PTL-footprints:2x3-male-pin-header-smd" H 4450 3750 60  0001 C CNN
+F 3 "" H 4450 3750 60  0000 C CNN
+	1    4450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 4550 4550 4700
+Wire Wire Line
+	3950 4700 3950 4600
+Wire Wire Line
+	3950 4600 4450 4600
+Wire Wire Line
+	4450 4600 4450 4700
+Wire Wire Line
+	4000 4850 4000 4650
+Wire Wire Line
+	4000 4650 4350 4650
+Wire Wire Line
+	4350 4650 4350 4700
+Wire Wire Line
+	4000 5050 4000 5250
+Wire Wire Line
+	4000 5250 4350 5250
+Wire Wire Line
+	4350 5250 4350 5200
+Wire Wire Line
+	3950 5200 3950 5300
+Wire Wire Line
+	3950 5300 4450 5300
+Wire Wire Line
+	4450 5300 4450 5200
+Wire Wire Line
+	4550 5350 4550 5200
+$Comp
+L BC849 Q1
+U 1 1 563A8476
+P 5900 3350
+F 0 "Q1" H 6100 3425 50  0000 L CNN
+F 1 "BC849" H 6100 3350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6100 3275 50  0001 L CIN
+F 3 "" H 5900 3350 50  0000 L CNN
+	1    5900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC849 Q2
+U 1 1 563A8C21
+P 8200 3350
+F 0 "Q2" H 8400 3425 50  0000 L CNN
+F 1 "BC849" H 8400 3350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 8400 3275 50  0001 L CIN
+F 3 "" H 8200 3350 50  0000 L CNN
+	1    8200 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
