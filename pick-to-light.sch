@@ -36,8 +36,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "PICK TO LIGHT - DISPLAY NODE"
-Date "2015-12-04"
-Rev "3"
+Date "2015-12-07"
+Rev "4"
 Comp "HOWARD WRIGHT LIMITED"
 Comment1 ""
 Comment2 ""
