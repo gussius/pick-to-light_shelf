@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pick-to-light_shelf-rescue)(type Legacy)(uri ${KIPRJMOD}/pick-to-light_shelf-rescue.lib)(options "")(descr ""))
+  (lib (name PTL-Schematic)(type Legacy)(uri C:/Users/angmcl/Documents/KiCAD/pick-to-light_bin/PTL-Schematic.lib)(options "")(descr ""))
+)
